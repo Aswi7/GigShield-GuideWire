@@ -1,111 +1,77 @@
 # GigShield-GuideWire
-# 🛡️ GigShield – AI-Powered Insurance for India’s Gig Economy
+# 🛡️ GigShield – AI-Powered Insurance for Gig Workers
 
 ## 📌 Overview
 
-GigShield is an AI-driven parametric insurance platform designed to protect gig workers (delivery partners) from **loss of income due to external disruptions** like extreme weather, pollution, or curfews.
+**GigShield** is an AI-based parametric insurance platform that protects delivery partners from **income loss due to external disruptions** like weather, pollution, or curfews.
 
-Unlike traditional insurance, GigShield provides **automatic claim detection and instant payouts** using real-time data — ensuring zero manual effort for workers.
-
-
-## 🎯 Problem Statement
-
-Delivery partners working with platforms like Zomato, Swiggy, Amazon, and Zepto often lose **20–30% of their income** due to uncontrollable disruptions such as:
-
-* Heavy rain / floods 🌧️
-* Extreme heat ☀️
-* Air pollution 🌫️
-* Local restrictions / strikes 🚫
-
-Currently, there is **no income protection system** for such cases.
+It enables **automatic claim detection and instant payouts** using real-time data — with zero manual effort.
 
 ---
 
-## 💡 Our Solution
+## 🎯 Problem
 
-GigShield offers:
+Gig workers (Zomato, Swiggy, Amazon, etc.) lose **20–30% income** due to:
 
-✅ AI-based **risk prediction & dynamic weekly premium**
-✅ **Parametric insurance model** (trigger-based payouts)
-✅ **Automated claim processing** (no manual request needed)
-✅ **Fraud detection system** using AI
-✅ **Instant payouts** via payment integration
+* 🌧️ Weather disruptions
+* 🌫️ Pollution
+* 🚫 Local restrictions
+
+There is currently **no income protection system**.
 
 ---
 
-## 🧠 Key Features
+## 💡 Solution
 
-### 🔹 AI-Powered Risk Assessment
+GigShield provides:
 
-* Predicts income loss based on location & environmental data
-* Calculates **weekly premium dynamically**
-
-### 🔹 Parametric Automation
-
-* Real-time monitoring using APIs
-* Auto-triggered claims when conditions are met
-
-### 🔹 Fraud Detection
-
-* Detects duplicate claims
-* GPS/location validation
-* Anomaly detection
-
-### 🔹 Seamless User Experience
-
-* Simple onboarding
-* Zero-touch claims
-* Weekly subscription model
+* AI-based **risk prediction & weekly premium**
+* **Auto-triggered claims** (parametric model)
+* **Fraud detection system**
+* **Instant payouts**
 
 ---
 
 ## ⚙️ Tech Stack
 
-### 🖥️ Frontend
-
-* React.js
-* Tailwind CSS
-
-### ⚙️ Backend
-
-* Node.js
-* Express.js
-
-### 🧠 AI / ML
-
-* Python
-* Scikit-learn
-* Pandas, NumPy
-
-### 🌐 APIs
-
-* OpenWeatherMap API
-* Google Maps API
-
-### 💾 Database
-
-* MongoDB
-
-### 💳 Payment Integration
-
-* Razorpay (Test Mode) / Stripe
-
-### 🔐 Authentication
-
-* JWT / Firebase Auth
+* **Frontend:** React.js, Tailwind CSS
+* **Backend:** Node.js, Express.js
+* **AI/ML:** Python, Scikit-learn
+* **Database:** MongoDB
+* **APIs:** Weather + Maps
+* **Payments:** Razorpay (Test)
 
 ---
 
-## 🔄 System Workflow
+## 🔄 Workflow
 
-1. User registers on the platform
-2. AI model calculates **risk score**
-3. Weekly premium is generated
-4. System continuously monitors external data (weather, pollution)
-5. If disruption occurs → claim is automatically triggered
-6. Fraud detection system validates claim
-7. Instant payout is processed
+1. User registers
+2. AI calculates risk & premium
+3. System monitors real-time data
+4. Disruption detected → claim triggered
+5. Fraud check → instant payout
 
 ---
 
-## 📊 D
+## 📊 Features
+
+* Weekly coverage model
+* Zero-touch claims
+* Real-time risk monitoring
+* Worker & Admin dashboards
+
+---
+
+## 🚀 Future Scope
+
+* Mobile app
+* Multi-language support
+* Voice assistant
+* Advanced analytics
+
+---
+
+## 📌 Conclusion
+
+GigShield creates a **financial safety net for gig workers** using AI, automation, and real-time data.
+
